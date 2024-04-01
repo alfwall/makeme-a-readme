@@ -13,8 +13,8 @@ Command line program that requests the contents for a README that is generated a
 
 
 ## TODO
-- [ ] Create README for this project
-- [ ] Install Inquirer with `npm -i inquirer@8.2.4`
+- [x] Create README for this project
+- [x] Install Inquirer with `npm i inquirer@8.2.4`
 - [ ] Prompt for each necessary thing: 
     - [ ] Project Title
     - [ ] Description
@@ -32,6 +32,7 @@ Command line program that requests the contents for a README that is generated a
         - [ ] "instructions on how to reach me with additional questions"
     - [ ] Table of Contents
         - [ ] Has links to each section
+- [ ] Record video demo
 
 ## User Story
 AS A developer,
