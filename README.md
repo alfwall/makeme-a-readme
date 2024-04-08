@@ -4,12 +4,10 @@
 Command line program that requests the contents for a README that is generated after.
 
 ## The Result
-[Click here!](DEPLOYED_URL_HERE)
-
-![Screenshot of the deployed project.](SCREENSHOT_OF_PROJECT_IN_ASSETS)
+![Screenshot of the app's prompts and output](./images/screenshot.png)
 
 ## Credits
-- [Description of whose code you've taken](URL_TO_THEIR_WEBSITE_AND_OR_CODE)
+- [The starter code that this was built off of](https://github.com/coding-boot-camp/potential-enigma)
 
 
 ## TODO
@@ -25,14 +23,14 @@ Command line program that requests the contents for a README that is generated a
         - [x] "a badge for that license is added near the top of the README" (see: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
     - [x] Contribution Guidelines
     - [x] Test Instructions
-    - [ ] FAQ (Questions)
+    - [x] FAQ (Questions)
         - [x] Request GitHub username
         - [x] Link to Github Profile
         - [x] Request email
         - [x] "instructions on how to reach me with additional questions"
     - [x] Table of Contents
         - [x] Has links to each section
-- [ ] Record video demo
+- [x] Record video demo
 
 ## User Story
 AS A developer,
