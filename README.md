@@ -3,6 +3,8 @@
 ## Description
 Command line program that requests the contents for a README that is generated after.
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ## The Result
 [Click here!](DEPLOYED_URL_HERE)
 

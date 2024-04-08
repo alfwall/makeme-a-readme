@@ -3,6 +3,8 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -29,10 +31,15 @@ const questions = [
         name: "license",
         message: "Choose a license:",
         type: "list",
-        choices: ["MIT", "Apache 2.0", "GNU APGL 3.0"]
+        choices: [
+            "Apache 2.0",
+            "GNU GPL v3",
+            "MIT",
+            "PDDL"
+        ]
     },
     {
-        name: "contribute",
+        name: "contributing",
         message: "What are the CONTRIBUTION GUIDELINES?",
         type: "input"
     },
@@ -54,7 +61,6 @@ const questions = [
 ];
 
 
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     try {
@@ -73,32 +79,29 @@ function init() {
     inquirer
         .prompt(questions)
         .then((answer) => {
-            //console.log("answer: " + JSON.stringify(answer))
             // Combine all of the responses
             dataAsObject = {
                 title: answer.title,
+                license: answer.license,
                 description: answer.description,
                 install: answer.install,
                 usage: answer.usage,
-                license: answer.license,
-                contribute: answer.contribute,
+                contributing: answer.contributing,
                 testing: answer.testing,
                 githubUser: answer.githubUser,
                 email: answer.email
             };
             // Create the markdown text
             var data = generateMarkdown(dataAsObject);
-            console.log("data: " + data)
+            //console.log("data: " + data)
             // Save it to a file
             writeToFile(`${dataAsObject.title}_README.md`, data);
-
         })
         .catch((error) => {
-            console.log("UHHHH")
+            console.log("UHHHH ERROR!");
             console.log(error);
             return;
         });
-
 }
 
 // Function call to initialize app
