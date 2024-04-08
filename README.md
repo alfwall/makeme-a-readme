@@ -15,23 +15,23 @@ Command line program that requests the contents for a README that is generated a
 ## TODO
 - [x] Create README for this project
 - [x] Install Inquirer with `npm i inquirer@8.2.4`
-- [ ] Prompt for each necessary thing: 
+- [x] Prompt for each necessary thing: 
     - [x] Project Title
     - [x] Description
     - [x] Installation Instructions
     - [x] Usage Information
-    - [ ] License
-        - [ ] Provide a LIST OF OPTIONS (request number entry of options?)
-        - [ ] "a badge for that license is added near the top of the README" (see: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+    - [x] License
+        - [x] Provide a LIST OF OPTIONS (request number entry of options?)
+        - [x] "a badge for that license is added near the top of the README" (see: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
     - [x] Contribution Guidelines
     - [x] Test Instructions
     - [ ] FAQ (Questions)
-        - [ ] Request GitHub username
-        - [ ] Link to Github Profile
-        - [ ] Request email
-        - [ ] "instructions on how to reach me with additional questions"
-    - [ ] Table of Contents
-        - [ ] Has links to each section
+        - [x] Request GitHub username
+        - [x] Link to Github Profile
+        - [x] Request email
+        - [x] "instructions on how to reach me with additional questions"
+    - [x] Table of Contents
+        - [x] Has links to each section
 - [ ] Record video demo
 
 ## User Story
