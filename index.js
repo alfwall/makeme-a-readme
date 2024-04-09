@@ -93,7 +93,7 @@ function init() {
             var data = generateMarkdown(dataAsObject);
             //console.log("data: " + data)
             // Save it to a file
-            writeToFile(`${dataAsObject.title}_README.md`, data);
+            writeToFile(`./output/${dataAsObject.title}_README.md`, data);
         })
         .catch((error) => {
             console.log(error);
