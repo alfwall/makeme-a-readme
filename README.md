@@ -4,6 +4,8 @@
 Command line program that requests the contents for a README that is generated after.
 
 ## The Result
+[Video demonstration](https://app.screencastify.com/v3/watch/QgrJbzevQDv5nTjfkrlh)
+
 ![Screenshot of the app's prompts and output](./images/screenshot.png)
 
 ## Credits
